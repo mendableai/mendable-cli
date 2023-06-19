@@ -108,7 +108,7 @@ program
           } catch (error) {
             console.error(`Error: ${error}`);
           }
-        }, 1000);
+        }, 2500);
       } else {
         console.log(
           `Ingestion started: ${
