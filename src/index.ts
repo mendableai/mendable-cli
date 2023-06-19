@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 dotenv.config();
 const program = new Command();
 // talk to anything CLI
-program.version("1.0.0").description("Mendable.ai CLI Tool");
+program.version("0.0.1").description("Mendable.ai CLI Tool");
 
 program
   .command("ask <question>")
